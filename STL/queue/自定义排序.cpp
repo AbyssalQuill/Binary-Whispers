@@ -24,9 +24,10 @@ int main(){
     
     cout << "按姓名升序，年龄降序排列:" << endl;
     while(!pq.empty()){
-        cout << pq.top().name << " " << pq.top().age << endl;
+        cout<<pq.top().name<<" "<<pq.top().age<<endl;
         pq.pop();
     }
+    
 }
 
 
