@@ -4,8 +4,7 @@ string subtruct(string a,string b){
     string result="";
     int borrow=0;
     for (int i=a.size()-1,j=b.size()-1;i>=0||j>=0;i--,j--){
-        int x=i<0?0:a[i]-'0';
-        int y=j<0?0:b[j]-'0';
+        int x=i<0?0:a[i]-'0',y=j<0?0:b[j]-'0';
         x-=borrow;
         if (x<y){
             x+=10;
